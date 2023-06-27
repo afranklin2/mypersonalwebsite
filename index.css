@@ -1,0 +1,72 @@
+h1 {background-color: floralwhite; 
+	color: salmon;}
+body 
+{background-image: url("doodlebackground.jpg"); 
+    color: #902851;
+	font-family: Comic sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 1.8em;
+	margin: 20px}
+
+body {text-align: center;}
+
+/* Style the list */
+ul.breadcrumb {padding: 10px 16px;
+  list-style: none;
+  background-color: floralwhite;}
+
+
+/* Display list items side by side */
+ ul.breadcrumb li { display: inline;
+  font-size: 18px;}
+
+ /* Add a color on mouse-over */
+ ul.breadcrumb li a:hover {color: #1A6897;
+  text-decoration: underline;}
+
+  /* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #D72965;
+  text-decoration: none;}
+
+ /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li: before {padding: 8px;
+  color: black;
+  content: "/\00a0";}
+
+table{background-color: salmon;
+     color: #1A6897;
+
+     border:5px #820933 dotted;
+     table-layout: fixed;
+     text-align: center;
+
+    width: 100%}
+     .center{display:block; margin-left:auto; margin-right:auto; width:auto; align-content: center;}
+
+<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1A6897;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
